@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #BC9364;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+}
+nav ul li{
+ display: inline-block;
+ text-align: center;
+ margin:5px;
+}
+nav ul li a{
+    text-decoration: none!important;
+    color:#fff;
+    font-family: 'Kurale', serif;
+    font-size: 24px;
+}
+nav ul li a:hover{
+    color:#D0B8AC;
+}
+#logo{
+    text-align: center;
+}
+#logo p{
+    font-size: 24px;
+    font-family: 'Rancho', cursive;
+}
+#about{
+    text-align: center;
+    padding-bottom: 5%;
+    background-color: #F0EADA;
+}
+.img{/*de por mientras*/
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: blue;   
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+#skills{
+    text-align: center;
+    background-image: url('../assets/images/medieval_castle.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.title{
+    padding-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Kurale', serif;
+    color: #000;
+}
+#works{
+    text-align: center;
+    background-color: #F0EADA;
+}
+.clas ul li{
+    display: inline-block;
+    text-align: center;
+}
+#pag1{
+    background-color: red;
+    width: 350px;
+    height: 250px;
+}
+#pag2{
+    background-color: blue;
+    width: 350px;
+    height: 250px;
+}
+#pag3{
+    background-color: green;
+    width: 350px;
+    height: 250px;
+}
+/*contact en desarrollo*/
+footer{
+    background-color: #353535;
+    text-align: center;
+
+}
+.title-footer{
+    font-family: 'Kurale', serif;
+    color: #fff;
+}
