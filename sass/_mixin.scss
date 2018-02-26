@@ -1,0 +1,25 @@
+@mixin large-title-text {
+    font-family: 'kurale';
+    font-size:26px;
+}
+@mixin margin-align {
+    text-align: center;
+    padding:9px;
+    margin:10px;
+}
+@mixin no-marginNo-padding {
+    margin: 0!important;
+    padding: 0!important;
+}
+@mixin circle{
+    border-radius:100%;
+    width: 16em;
+    height: 16em;
+}
+
+@mixin center-img {
+    text-align: center;
+    background-size: cover;
+    
+}
+

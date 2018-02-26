@@ -1,0 +1,173 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.line{
+    background-color: #B9995C;
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 15%;
+}
+
+header{
+    background-color: $color_Header;
+    width:$ancho-contenedor;
+    height: 70px;
+    position: fixed;
+    text-align: center;
+    z-index: 3;
+    #logo{
+        font-family: $font_logo;
+        font-size: 24px;
+        p{
+            padding-top: 9px;
+            font-size: 34px;
+            color: #efefef;
+        }
+    }
+    nav{
+        padding-top:9px;
+    }
+    ul li{
+        display:inline;
+        
+        
+    }
+    ul li a{
+        font-family: $font_logo;
+        font-size: 24px;
+        margin: 3px;
+        text-decoration: none;
+        color: #efefef;
+        
+    }
+    ul li a:hover{
+        color:$color_hover;
+    }
+}
+#carrousel{
+    padding-top: 70px;
+}
+#about{
+    background-color: $color_background;
+    .img{
+        @include circle;
+        background-color: blue;
+    }
+    #description{
+        margin-bottom: 30px;
+    }
+}
+#skills{
+    background-image: url('../css/images/medieval_castle.jpg');
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    i{
+        font-size: $size_icon;
+        color: $in_black_color_txt;   
+    }
+    h2{
+        color:$in_white_color_txt;
+
+    }
+    #ico-1{
+        @include margin-align;
+        
+    }
+    #ico-2{
+        @include margin-align;
+        
+    }
+    #ico-3{
+        @include margin-align;
+       
+    }
+    
+}
+.title{
+    @include large-title-text;
+    @include margin-align;
+}
+#works{
+    background-color: $color_background;
+}
+#contact{
+    background-color: #e0d7c5;
+    .contact{
+        text-align: center;
+    }
+    
+    .button-form{
+        text-align: center;
+        margin-bottom: 4%;
+        .line{
+            background-color: #B9995C;
+            width: 200px;
+            height: 5px;
+            display: inline-block;
+            
+        }
+        #btn-sent{
+            background-color: #B9995C;
+            border: #B9995C;
+        }
+    }
+    
+}
+footer{
+    background-color: $color_footer;
+    text-align: center;
+    h2{
+        color: $in_black_color_txt;
+    }
+    img{
+        padding-bottom: 19px;
+    }
+    .lineWhite{
+        background-color: $in_black_color_txt ;
+        width: 200px;
+        height: 5px;
+        display: inline-block;
+        margin-bottom: 12px;
+    }
+    i{
+        color: $in_black_color_txt;
+        font-size: 34px; 
+    }
+    .fa-linkedin-in{
+        color: $in_black_color_txt;
+        font-size: 34px; 
+    }
+    p{
+        color : $in_black_color_txt;
+    }
+}
+.clas{
+    text-align: center;
+    ul li{
+        display: inline-block;
+        list-style: none;
+        margin:7px;
+    }
+}
+#pag1{
+    width: 300px;
+    height: 250px;
+    background-color: olive;
+}
+#pag2{
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+}
+#pag3{
+    width: 300px;
+    height: 250px;
+    background-color: green;
+}
+
+
+
