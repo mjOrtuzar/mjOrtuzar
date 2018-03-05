@@ -5,13 +5,13 @@ $(document).ready(function(){
     
     $(".slider li").hide();
     $(".slider li:first").show();
-    $(".pagination li:first").css({'color': '#CD6E2E'});
  //funciones para pasar las imagenes
-    $(".right span").click(nextSlider);
-    $(".left span").click(prevSlider);
+    $(".right ").click(nextSlider);
+    $(".left ").click(prevSlider);
 
     setInterval(function(){ //animacion
         nextSlider();
+        
     },4000);
 
     //funciones
@@ -23,8 +23,6 @@ $(document).ready(function(){
         }else{
             imgPos++;
         }
-        $(".pagination li").css({'color':'#858585'});
-        $(".pagination li:nth-child("+ imgPos +")").css({'color':'#CD6E2E'});
         $(".slider li").hide();
         $(".slider li:nth-child("+  imgPos +")").fadeIn();
     }
@@ -34,8 +32,6 @@ $(document).ready(function(){
         }else{
             imgPos--;
         }
-        $(".pagination li").css({'color':'#858585'});
-        $(".pagination li:nth-child("+ imgPos +")").css({'color':'#CD6E2E'});
         $(".slider li").hide();
         $(".slider li:nth-child("+  imgPos +")").fadeIn();
     }

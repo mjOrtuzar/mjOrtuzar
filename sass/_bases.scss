@@ -48,20 +48,23 @@ header{
     }
 }
 #carrousel{
-    padding-top: 70px;
+    padding-top: 40px;
 }
 #about{
     background-color: $color_background;
-    .img{
+    .img img{
         @include circle;
-        background-color: blue;
     }
     #description{
         margin-bottom: 30px;
+        color: $in_white_color_txt;
+        .text{
+            float: right;
+        }
     }
 }
 #skills{
-    background-image: url('../css/images/medieval_castle.jpg');
+    background-image: url('../css/images/lucecitas.jpg');
     background-position: bottom;
     background-size: cover;
     text-align: center;
@@ -70,7 +73,7 @@ header{
         color: $in_black_color_txt;   
     }
     h2{
-        color:$in_white_color_txt;
+        color:$in_black_color_txt;
 
     }
     #ico-1{
@@ -85,8 +88,18 @@ header{
         @include margin-align;
        
     }
+    .ico i:hover{
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+    }
+
+    
     
 }
+.ico i.blur{
+    filter: blur(3px); 
+}
+
 .title{
     @include large-title-text;
     @include margin-align;
@@ -100,21 +113,6 @@ header{
         text-align: center;
     }
     
-    .button-form{
-        text-align: center;
-        margin-bottom: 4%;
-        .line{
-            background-color: #B9995C;
-            width: 200px;
-            height: 5px;
-            display: inline-block;
-            
-        }
-        #btn-sent{
-            background-color: #B9995C;
-            border: #B9995C;
-        }
-    }
     
 }
 footer{
@@ -128,7 +126,7 @@ footer{
     }
     .lineWhite{
         background-color: $in_black_color_txt ;
-        width: 200px;
+        width: 100px;
         height: 5px;
         display: inline-block;
         margin-bottom: 12px;
@@ -156,18 +154,39 @@ footer{
 #pag1{
     width: 300px;
     height: 250px;
-    background-color: olive;
+    background-image: url('../css/images/pagina1.png');
+    background-size: cover;
+    
 }
 #pag2{
     width: 300px;
     height: 250px;
-    background-color: blue;
+    background-image: url('../css/images/pagina2.png');
+    background-size: cover;
 }
 #pag3{
     width: 300px;
     height: 250px;
-    background-color: green;
+    background-image: url('../css/images/pagina3.png');
+    background-size: cover;
+    background-position: bottom;
 }
+#pag4{
+    width: 300px;
+    height: 250px;
+    background-color: fuchsia;
+
+}
+#pag5{
+    width: 300px;
+    height: 250px;
+    background-color: orange;
+}
+#pag6{
+    width: 300px;
+    height: 250px;
+    background-color: aquamarine;
+} 
 
 
 

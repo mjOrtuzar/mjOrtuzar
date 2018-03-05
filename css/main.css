@@ -5846,20 +5846,22 @@ header {
     color: #D0B8AC; }
 
 #carrousel {
-  padding-top: 70px; }
+  padding-top: 40px; }
 
 #about {
   background-color: #F0EADA; }
-  #about .img {
+  #about .img img {
     border-radius: 100%;
     width: 16em;
-    height: 16em;
-    background-color: blue; }
+    height: 16em; }
   #about #description {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #000; }
+    #about #description .text {
+      float: right; }
 
 #skills {
-  background-image: url("../css/images/medieval_castle.jpg");
+  background-image: url("../css/images/lucecitas.jpg");
   background-position: bottom;
   background-size: cover;
   text-align: center; }
@@ -5867,7 +5869,7 @@ header {
     font-size: 7em;
     color: #fff; }
   #skills h2 {
-    color: #000; }
+    color: #fff; }
   #skills #ico-1 {
     text-align: center;
     padding: 9px;
@@ -5880,6 +5882,12 @@ header {
     text-align: center;
     padding: 9px;
     margin: 10px; }
+  #skills .ico i:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6); }
+
+.ico i.blur {
+  filter: blur(3px); }
 
 .title {
   font-family: 'kurale';
@@ -5895,17 +5903,6 @@ header {
   background-color: #e0d7c5; }
   #contact .contact {
     text-align: center; }
-  #contact .button-form {
-    text-align: center;
-    margin-bottom: 4%; }
-    #contact .button-form .line {
-      background-color: #B9995C;
-      width: 200px;
-      height: 5px;
-      display: inline-block; }
-    #contact .button-form #btn-sent {
-      background-color: #B9995C;
-      border: #B9995C; }
 
 footer {
   background-color: #2E2E2E;
@@ -5916,7 +5913,7 @@ footer {
     padding-bottom: 19px; }
   footer .lineWhite {
     background-color: #fff;
-    width: 200px;
+    width: 100px;
     height: 5px;
     display: inline-block;
     margin-bottom: 12px; }
@@ -5939,17 +5936,36 @@ footer {
 #pag1 {
   width: 300px;
   height: 250px;
-  background-color: olive; }
+  background-image: url("../css/images/pagina1.png");
+  background-size: cover; }
 
 #pag2 {
   width: 300px;
   height: 250px;
-  background-color: blue; }
+  background-image: url("../css/images/pagina2.png");
+  background-size: cover; }
 
 #pag3 {
   width: 300px;
   height: 250px;
-  background-color: green; }
+  background-image: url("../css/images/pagina3.png");
+  background-size: cover;
+  background-position: bottom; }
+
+#pag4 {
+  width: 300px;
+  height: 250px;
+  background-color: fuchsia; }
+
+#pag5 {
+  width: 300px;
+  height: 250px;
+  background-color: orange; }
+
+#pag6 {
+  width: 300px;
+  height: 250px;
+  background-color: aquamarine; }
 
 .slideshow {
   width: 100%;
