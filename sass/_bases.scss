@@ -51,15 +51,24 @@ header{
     padding-top: 40px;
 }
 #about{
-    background-color: $color_background;
+    background-image: url('../css/images/perfilOficial.jpg');
+    background-size: cover;
+    padding-top:2em;
     .img img{
         @include circle;
+        display: none;
     }
     #description{
-        margin-bottom: 30px;
         color: $in_white_color_txt;
+        padding:5em;
         .text{
             float: right;
+            font-size:18px;
+            font-family: $common_txt_font;
+            color:$in_black_color_txt;
+            background-color: rgba(0,0,0,.8);
+            padding:25px;
+            
         }
     }
 }
@@ -68,6 +77,8 @@ header{
     background-position: bottom;
     background-size: cover;
     text-align: center;
+    padding-top:4em;
+    
     i{
         font-size: $size_icon;
         color: $in_black_color_txt;   
@@ -92,9 +103,6 @@ header{
         transform: scale(1.05);
         box-shadow: 3px 3px 10px rgba(0,0,0,0.6);
     }
-
-    
-    
 }
 .ico i.blur{
     filter: blur(3px); 
@@ -106,14 +114,35 @@ header{
 }
 #works{
     background-color: $color_background;
+    padding-top:3em;
+    .contenedor{
+        padding: 3em;
+    }
+    ul{
+        li{
+            .panel {
+                padding:50;
+                display:none;
+                height: 200px;
+                text-align: center;
+            }
+            .fa-chevron-up{
+                float: right;
+                position:relative;
+                top:12em;
+                color: #000;
+            }
+            
+            
+        }
+    }
 }
 #contact{
     background-color: #e0d7c5;
     .contact{
         text-align: center;
-    }
-    
-    
+        
+    }  
 }
 footer{
     background-color: $color_footer;
@@ -143,50 +172,33 @@ footer{
         color : $in_black_color_txt;
     }
 }
-.clas{
+.contenedor{
     text-align: center;
     ul li{
         display: inline-block;
-        list-style: none;
-        margin:7px;
+
+    }
+    #pag1{
+        background-image:url('../css/images/pagina1.png');
+        background-size: cover;
+    }
+    #pag2{
+        background-image: url('../css/images/pagina2.png');
+        background-size:cover;
+    }
+    #pag3{
+        background-image: url('../css/images/pagina3.png');
+        background-size:cover;
+    }
+
+    #pag1, #pag2, #pag3{
+        width: 350px;
+        height: 200px;
+        
     }
 }
-#pag1{
-    width: 300px;
-    height: 250px;
-    background-image: url('../css/images/pagina1.png');
-    background-size: cover;
-    
-}
-#pag2{
-    width: 300px;
-    height: 250px;
-    background-image: url('../css/images/pagina2.png');
-    background-size: cover;
-}
-#pag3{
-    width: 300px;
-    height: 250px;
-    background-image: url('../css/images/pagina3.png');
-    background-size: cover;
-    background-position: bottom;
-}
-#pag4{
-    width: 300px;
-    height: 250px;
-    background-color: fuchsia;
 
-}
-#pag5{
-    width: 300px;
-    height: 250px;
-    background-color: orange;
-}
-#pag6{
-    width: 300px;
-    height: 250px;
-    background-color: aquamarine;
-} 
+
 
 
 
