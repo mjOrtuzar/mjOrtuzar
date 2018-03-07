@@ -13,6 +13,22 @@ $(document).ready(()=> {
     
     });
 
+    $('#boton1').click(function() {
+
+        $('#panel1').slideToggle('slow')
+
+    })
+    $('#boton2').click(function() {
+
+        $('#panel2').slideToggle('slow')
+
+    })
+    $('#boton3').click(function() {
+
+        $('#panel3').slideToggle('slow')
+
+    })
+
     
     
 

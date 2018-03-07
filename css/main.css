@@ -5907,19 +5907,33 @@ header {
 
 #works {
   background-color: #F0EADA;
-  padding-top: 3em; }
+  padding-top: 3em;
+  text-align: center; }
   #works .contenedor {
     padding: 3em; }
-  #works ul li .panel {
-    padding: 50;
-    display: none;
-    height: 200px;
-    text-align: center; }
-  #works ul li .fa-chevron-up {
-    float: right;
-    position: relative;
-    top: 12em;
-    color: #000; }
+    #works .contenedor .panel {
+      padding: 50;
+      display: none;
+      height: 200px;
+      text-align: center; }
+    #works .contenedor .fa-chevron-up {
+      float: right;
+      position: relative;
+      top: 12em;
+      color: #000; }
+    #works .contenedor #pag1 {
+      background-image: url("../css/images/pagina1.png");
+      background-size: cover; }
+    #works .contenedor #pag2 {
+      background-image: url("../css/images/pagina2.png");
+      background-size: cover; }
+    #works .contenedor #pag3 {
+      background-image: url("../css/images/pagina3.png");
+      background-size: cover; }
+    #works .contenedor #pag1, #works .contenedor #pag2, #works .contenedor #pag3 {
+      width: 350px;
+      height: 200px;
+      display: inline-block; }
 
 #contact {
   background-color: #e0d7c5; }
@@ -5947,23 +5961,6 @@ footer {
     font-size: 34px; }
   footer p {
     color: #fff; }
-
-.contenedor {
-  text-align: center; }
-  .contenedor ul li {
-    display: inline-block; }
-  .contenedor #pag1 {
-    background-image: url("../css/images/pagina1.png");
-    background-size: cover; }
-  .contenedor #pag2 {
-    background-image: url("../css/images/pagina2.png");
-    background-size: cover; }
-  .contenedor #pag3 {
-    background-image: url("../css/images/pagina3.png");
-    background-size: cover; }
-  .contenedor #pag1, .contenedor #pag2, .contenedor #pag3 {
-    width: 350px;
-    height: 200px; }
 
 .slideshow {
   width: 100%;

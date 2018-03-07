@@ -115,33 +115,49 @@ header{
 #works{
     background-color: $color_background;
     padding-top:3em;
+    text-align: center;
     .contenedor{
         padding: 3em;
-    }
-    ul{
-        li{
-            .panel {
-                padding:50;
-                display:none;
-                height: 200px;
-                text-align: center;
-            }
-            .fa-chevron-up{
-                float: right;
-                position:relative;
-                top:12em;
-                color: #000;
-            }
-            
-            
+        
+        .panel {
+            padding:50;
+            display:none;
+            height: 200px;
+            text-align: center;
         }
+        .fa-chevron-up{
+            float: right;
+            position:relative;
+            top:12em;
+            color: #000;
+        }
+        #pag1{
+            background-image:url('../css/images/pagina1.png');
+            background-size: cover;
+        }
+        #pag2{
+            background-image: url('../css/images/pagina2.png');
+            background-size:cover;
+        }
+        #pag3{
+            background-image: url('../css/images/pagina3.png');
+            background-size:cover;
+        }
+            
+        #pag1, #pag2, #pag3{
+            width: 350px;
+            height: 200px;
+            display:inline-block
+                    
+         }
+                
     }
+    
 }
 #contact{
     background-color: #e0d7c5;
     .contact{
         text-align: center;
-        
     }  
 }
 footer{
@@ -172,31 +188,7 @@ footer{
         color : $in_black_color_txt;
     }
 }
-.contenedor{
-    text-align: center;
-    ul li{
-        display: inline-block;
 
-    }
-    #pag1{
-        background-image:url('../css/images/pagina1.png');
-        background-size: cover;
-    }
-    #pag2{
-        background-image: url('../css/images/pagina2.png');
-        background-size:cover;
-    }
-    #pag3{
-        background-image: url('../css/images/pagina3.png');
-        background-size:cover;
-    }
-
-    #pag1, #pag2, #pag3{
-        width: 350px;
-        height: 200px;
-        
-    }
-}
 
 
 
