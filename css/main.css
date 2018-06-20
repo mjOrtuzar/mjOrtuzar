@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/*tamaños secciones*/
+section{
+    height: 100vh;
+    min-height: 800px !important;
+}
+#about,#skills{
+    background-color: #213F82;
+}
+main {
+    flex: 1 0 auto;
+}
+.titulo{
+    font-family: "DOMINICA";
+}
+.ii{
+    font-family: "DOMINICA";
+}
+
+.lauburu{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    height:40px ;
+    width: 40px;
+    position: relative;
+    top: 12px;
+}
+.lauburu2{
+    -webkit-filter: invert(100%);
+    height: 40px;
+    width: 40px;
+}
+blockquote{
+    border-left: 5px solid #fff !important;
+}
+h3, .aboutMe{
+    font-family: "DOMINICA";
+}
+.rune{
+    font-family: 'RUNE';
+}
+.rune,h3{
+    display: inline;
+}
+.email{
+    font-size: 2em;
+    font-family: "DOMINICA";
+}
+.gitprof{
+    color: white
+}
+.gitprof:hover{
+    color: goldenrod;
+}
+/*tamaños casas*/
+#raven{
+    height: 3cm;
+    width: 2.5cm;
+}
+/* fuente */
+@font-face{
+    font-family: "DOMINICA";
+    src: url(../fonts/GRECOromanLubedWrestling.ttf);
+}
+@font-face{
+    font-family: 'RUNE';
+    src: url(../fonts/Bubble_Runes.ttf);
+}
