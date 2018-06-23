@@ -1,0 +1,14 @@
+@media screen and (max-device-width:1020px){
+    #table{
+        display: none;
+    };
+}
+@media screen and (min-device-width:1020px) and (max-device-width : 1680px){
+    .mobile{
+        display: none;
+    }
+    section{
+        height: 100vh;
+        min-height: 800px !important;
+    }
+}

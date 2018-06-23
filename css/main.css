@@ -4,10 +4,18 @@ body {
     flex-direction: column;
 }
 /*tamaños secciones*/
-section{
-    height: 100vh;
-    min-height: 800px !important;
+
+/*porcetajes*/
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    border-bottom:none !important;
+    color: white !important;
 }
+
+/*fin porcentajes*/
+.num,.js{
+    font-family: "DOMINICA";
+}
+
 #about,#skills{
     background-color: #213F82;
 }
