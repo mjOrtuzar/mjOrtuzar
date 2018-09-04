@@ -35,4 +35,28 @@ $(document).ready(function() {
         round: 1,
         easing: 'easeInOutExpo'
     });
+    var domAttributesIllustrator = anime({
+        targets: '#domAttributesIllustrator input',
+        value: 63+"%",
+        round: 1,
+        easing: 'easeInOutExpo'
+    });
+    var domAttributesPhotoshop = anime({
+        targets: '#domAttributesPhotoshop input',
+        value: 80+"%",
+        round: 1,
+        easing: 'easeInOutExpo'
+    });
+    var domAttributesWordpress = anime({
+        targets: '#domAttributesWordpress input',
+        value: 66+"%",
+        round: 1,
+        easing: 'easeInOutExpo'
+    });
+    var domAttributesSeo = anime({
+        targets: '#domAttributesSeo input',
+        value: 60+"%",
+        round: 1,
+        easing: 'easeInOutExpo'
+    });
 });
