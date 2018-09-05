@@ -1,4 +1,24 @@
 $(document).ready(function() {
+
+    $("#digitalSkills").hide()
+
+    //se cambian las paginas
+    var changeToDev = $("#changeToDeveloper");
+    var changeToDes = $("#changeToDesign");
+
+    changeToDes.click(function(){
+        $("#table").hide();
+        $("#digitalSkills").show();
+        
+    });
+    changeToDev.click(function(){
+        $("#digitalSkills").hide();
+        $("#table").show();
+    })
+
+
+
+
     var domAttributesJavascript = anime({
         targets: '#domAttributesJavascript input',
         value: 80+"%",
@@ -59,4 +79,6 @@ $(document).ready(function() {
         round: 1,
         easing: 'easeInOutExpo'
     });
+    //se siguen añadiendo efectos
+    
 });
